@@ -12,7 +12,7 @@ MAKE_WEBHOOK_URL = "https://hook.eu2.make.com/m2pnfh9sj251v8rkj3g1vyl3mjys58ih" 
 def get_user_data():
     return 
         "nom": "John Doe",
-         sexe = input("Sexe (Homme/Femme) : ")  # Demander à l'utilisateur
+          "sexe": "Homme",  # ✅ Corrigé : Remplace "Homme" par une seule valeur (soit "Homme", soit "Femme")
         "objectif": "Prise de masse",
         "frequence_entrainement": "4 fois/semaine",
         "pas_quotidiens": 8000,
