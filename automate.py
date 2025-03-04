@@ -10,8 +10,7 @@ MAKE_WEBHOOK_URL = "https://hook.eu2.make.com/m2pnfh9sj251v8rkj3g1vyl3mjys58ih" 
 
 # 🔄 Simulation des données utilisateur
 def get_user_data():
-    return {
-       
+    return 
         "nom": "John Doe",
          sexe = input("Sexe (Homme/Femme) : ")  # Demander à l'utilisateur
         "objectif": "Prise de masse",
