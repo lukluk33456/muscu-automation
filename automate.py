@@ -13,7 +13,7 @@ def get_user_data():
     return {
        
         "nom": "John Doe",
-         sexe": "Homme" ou "Femme"
+         sexe = input("Sexe (Homme/Femme) : ")
         "objectif": "Prise de masse",
         "frequence_entrainement": "4 fois/semaine",
         "pas_quotidiens": 8000,
